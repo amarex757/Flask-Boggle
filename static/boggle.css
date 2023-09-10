@@ -1,0 +1,26 @@
+.board {
+    border: solid 2px black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.msg {
+    padding: 1em;
+}
+
+.msg.ok {
+    color:rgb(255,255,255);
+    background-color: green;
+}
+
+.msg.err {
+    color: rgb(255,255,255);
+    background-color: tomato;
+}
